@@ -31,7 +31,11 @@ loadData('top_movies_2023.csv', function (thisYearData) {
 
     // Create the Plotly figure
     var layout = {
-      title: 'Movie Comparison',
+      title: 'Top 20 Movies of All Time vs. Top 20 Movies in 2023',
+        titlefont: {
+          size: 20, // Adjust the font size as needed
+          family: 'Verdana', // Change the font family here
+        },
       xaxis: {
         title: 'Ranking',
         dtick: 1, // Set the tick step to 1

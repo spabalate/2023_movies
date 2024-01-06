@@ -63,10 +63,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     plugins: {
                         title: {
                             display: true,
-                            text: 'Bubble Graph: Distribution of Movies by Distributor',
-                            fontSize: 16,
+                            text: 'Top 20 Movie Distributors for 2023',
                             font: {
-                                family: 'Arial',
+                                size: 20,
+                                family: 'Verdana', // Change the font family here
+                                weight: 'normal',
                             },
                         },
                         tooltip: {

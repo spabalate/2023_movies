@@ -89,7 +89,11 @@ fetch('top_movies_2023.csv')
         showticklabels: true,   // Show tick labels
         range: [-25000000, 900000000], // Adjust the range to include negative values
       },
-      title: 'Scatter Plot of Gross Earnings vs Number of Theaters',
+      title: '2023 Gross Earnings vs. Number of Theaters',
+        titlefont: {
+          size: 20, // Adjust the font size as needed
+          family: 'Verdana', // Change the font family here
+        },
       legend: {
         x: 1,
         y: 1,

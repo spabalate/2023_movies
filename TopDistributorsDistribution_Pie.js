@@ -53,17 +53,29 @@ document.addEventListener('DOMContentLoaded', function () {
                     plugins: {
                         title: {
                             display: true,
-                            text: 'Distribution of Movies by Distributor',
-                            fontSize: 16, // Adjust the font size as needed
+                            text: 'Top 20 Movie Distributors for 2023',
                             font: {
-                                family: 'Arial', // Change the font family here
+                                size: 20,
+                                family: 'Verdana', // Change the font family here
+                                weight: 'normal',
                             },
-                        }
-                    },
-                    legend: {
-                        display: true,
-                        position: 'right',
-                        align: 'start',
+                            padding: {
+                                bottom: 40, // Add bottom padding to title
+                            },
+                        },
+                        legend: {
+                            display: true,
+                            position: 'right',
+                            align: 'center',
+                            labels: {
+                                boxWidth: 15,
+                                padding: 30,
+                                font: {
+                                    family: 'Verdana', // Change the font family here
+                                    size: 14, // Adjust the font size as needed
+                                },
+                            },
+                        },
                     },
                     responsive: true,
                     maintainAspectRatio: false,
