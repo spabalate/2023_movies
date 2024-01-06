@@ -20,7 +20,7 @@ Movies make how much?? This next set of graphs takes a look into how much the mo
 Maybe a movie’s revenue depends on the distributor. Take a look by hovering over the next few charts. Eventually you’ll find that although 2023 was the year of Barbie, it still does not come close to some of the greats.  
 
 ## **Act III: Top Domestic Movies vs. Top Worldwide Movies in 2023**  
-We know there are many films that did well in the United States, but how did they do overseas? There are some titles that actually did better overseas than domestically. Hover over the bar chart to find out!  
+We know there are many films that did well in the United States, but how did they do overseas? You’d be surprised to see that the ranking overseas slightly differs from the domestic ranking. Hover over the bar chart to find out!
 
 The treemap view brings no surprise that Barbie was #1 both domestically and worldwide. Feel free to adjust the dropdown to compare. Hover over the bubble chart to see how much the top 20 movies in the world did.  
 
